@@ -42,8 +42,6 @@ void loop() {
 void executarAcao(){
     switch (contaPalmas){
       case 2:
-
-      
         digitalWrite(led, !digitalRead(led));
         break;
       }
